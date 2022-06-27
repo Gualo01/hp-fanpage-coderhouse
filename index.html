@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
     </style>
@@ -37,7 +38,7 @@
 
     <section>
       <!--Godric Gryffindor-->
-      <div class="container">
+      <div class="container wow">
         <img class="img1" src="assets/img/godric.jpg" alt="Retrato de Godric Gryffindor" />
       <div class="texto-izq">
       <h3 class="titulofundador">Godric Gryffindor</h3>
@@ -51,7 +52,7 @@
       </div>
 
       <!--Rowena Ravenclaw-->
-      <div class="rcontainer">
+      <div class="rcontainer wow animate__fadeInRight" data-wow-duration="2s">
         <img class="img2" id="rowena" src="assets/img/rowena.jpg" alt="Retrato de Rowena Ravenclaw" />
       <div class="texto-der">
       <h3 class="titulofundador">Rowena Ravenclaw</h3>
@@ -65,7 +66,7 @@
     </div>
 
       <!--Helga Hufflepuff-->
-      <div class="container">
+      <div class="container wow">
         <img class="img1" id="helga" src="assets/img/helga.jpg" alt="Retrato de Helga Hufflepuff" />
       <div class="texto-izq">
       <h3 class="titulofundador">Helga Hufflepuff</h3>
@@ -79,7 +80,7 @@
       </div>
 
       <!--Salazar Slytherin-->
-      <div class="rcontainer">
+      <div class="rcontainer wow animate__fadeInRight" data-wow-duration="2s">
         <img class="img2" id="salazar" src="assets/img/salazar.jpg" alt="Retrato de Salazar Slytherin" />
       <div class="texto-der">
       <h3 class="titulofundador">Salazar Slytherin</h3>
@@ -110,5 +111,9 @@
      </ul>
     </div>
     </footer>
+    <script src="assets/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
   </body>
 </html>
