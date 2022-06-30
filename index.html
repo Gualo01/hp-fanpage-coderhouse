@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/animate.css">
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
     </style>
@@ -13,22 +15,66 @@
 
   <body>
     <!--Encabezado y navbar-->
-    <header>
-      <nav>
-        <ul class="listahome">
-          <li class="listacasas"><a href="pages/gryffindor.html">Gryffindor</a></li>
-          <li class="listacasas"><a href="pages/ravenclaw.html">Ravenclaw</a></li>
-          <li><a href="index.html"><img id="logohome" src="assets/img/hoglogo.png" alt="Logo de Hogwarts"></a></li>
-          <li class="listacasas"><a href="pages/hufflepuff.html">Hufflepuff</a></li>
-          <li class="listacasas"><a href="pages/slytherin.html">Slytherin</a></li>
-        </ul>
-      </nav>
-    </header>
+    <!--Header-->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img id="logohome" src="assets/img/hoglogo.png" alt="Logo de Hogwarts"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="pages/gryffindor.html">Gryffindor</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/ravenclaw.html">Ravenclaw</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/hufflepuff.html">Hufflepuff</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/slytherin.html">Slytherin</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+   
     <!-- Fin del Encabezado-->
 
+    <!--Carousel / Video-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <video class="d-block w-100" id="videohome" src="assets/video/videopage.mp4" autoplay muted></video>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/hogview.jpg" class="d-block w-100" alt="Paisaje de Hogwarts">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/hogview2.jpg" class="d-block w-100" alt="Hogwarts en Invierno">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    <!--Fin Carousel / Video-->
+
     <section>
-      <video id="videohome" src="assets/video/videopage.mp4" autoplay muted></video>
-      <!--Video Frontpage-->
+      <!--Titulo-->
       <h1 class="titulos">Colegio Hogwarts de Magia y Hechiceria</h1>
       <!--Titulo-->
       <h2 class="subtitulos">Conoce a nuestros fundadores</h2>
@@ -94,11 +140,12 @@
     </div>
     </section>
 
+
+
     <!-- Footer -->
- 
+
     <footer>
      <!--Enlace a Wizarding World-->
-
      <a href="https://www.wizardingworld.com/"><img id="logowizard" src="assets/img/wwlogo.png" alt="Logo de Wizarding World"/></a>
     <h3>© WIZARDING WORLD DIGITAL 2022</h3>
    <!--Enlaces a Redes Sociales-->
@@ -110,5 +157,10 @@
      </ul>
     </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
   </body>
 </html>
