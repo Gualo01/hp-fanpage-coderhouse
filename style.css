@@ -1,45 +1,18 @@
 body{
     margin: 0;
-    background-color: rgb(157, 68, 68);
 }
 
-nav{
-    background-color: rgb(87, 9, 9);
-    width: 100%;
-}
-
-.listahome{
-    display: flex;
-    text-decoration: none;
-    list-style: none;
-    align-items: center;
-    justify-content: space-evenly;
-}
 
 #logohome{
     width: 64px;
     height: 64px;
 }
 
-#videohome{
-    width: 100%;
-    height: auto;
-}
-
-.listacasas a {
-    text-decoration: none;
-    font-family: 'Nunito', sans-serif;
-    font-size: 20px;
-    color: white;
-    text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;
-}
-
 .titulos{
     font-family: 'Nunito', sans-serif;
     font-size: 48px;
     text-align: center;
-    color: white;
-    text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;
+    color: black;
 
 }
 
@@ -47,8 +20,7 @@ nav{
     font-family: 'Nunito', sans-serif;
     font-size: 36px;
     text-align: center;
-    color: white;
-    text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;
+    color: black;
 }
 
 section:nth-child(3){
@@ -77,23 +49,20 @@ section:nth-child(3){
 .titulofundador{
     margin: 0 auto;
     font-family: 'Nunito', sans-serif;
-    color: white;
-    text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;
+    color: black;
 }
 
 .textofundador1{
     margin: 0 auto;
     font-family: 'Nunito', sans-serif;
-    color: white;
-    text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;
+    color: black;
     text-align: right;
 }
 
 .textofundador2{
     margin: 0 auto;
     font-family: 'Nunito', sans-serif;
-    color: white;
-    text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;
+    color: black;
     text-align: left;
 }
 
@@ -167,9 +136,18 @@ footer h3{
     text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;
 }
 
-.social{
-    display: flex;
-    align-items: center;
-    margin: 5px;
-    
+.housecrest{
+    width: 406px;
+    height: 452px;
 }
+/* Ajustes en los emblemas */
+.centrarCaja {
+    position:relative;
+    left:20%;
+}
+
+.slytherin {
+    position:relative;
+    left:13%; 
+}
+/* Fin Ajustes en los emblemas */
