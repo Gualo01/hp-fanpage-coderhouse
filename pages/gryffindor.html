@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
     <link rel="stylesheet" href="../style.css">
+
+     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!--WOW Animate CSS-->
     <link rel="stylesheet" href="../assets/animate.css">
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-    </style>
+
+    <!--Favicon y Title-->
+    <link rel="icon" href="../assets/img/ico.png" type="image/x-icon">
     <title>Gryffindor</title>
 </head>
 <body>
@@ -46,9 +52,9 @@
 
     <!--Emblema Casa-->
     
-    <section class="py-5 text-center container">
+    <section class="py-5 text-center container-fluid">
       <div class="row py-lg-5 centrarCaja">
-        <div class="col-lg-8 mx-auto">
+        <div class="col-lg-8 mx-auto animate__fadeIn">
           <img class="housecrest" src="../assets/img/gryffindor.png" alt="Emblema de la Casa Gryffindor">
           <h1 class="fw-light">Gryffindor</h1>
           <p class="lead text-muted">Un buen miembro de Gryffindor tiene gran osadía, temple y caballerosidad.</p>
@@ -59,54 +65,45 @@
     <!--Fin Emblema Casa-->
         
         <section>
-            <h1>Estudiantes mas representativos</h1>
+            <h1 class="fw-normal text-center">Mejores Miembros</h1>
+            <p>
+              <br>
+            </p>
+          <div class="d-grid gap-5">
 
             <!--Harry Potter-->
-            <div class="container">
-                <img class="img1" src="../assets/img/harrypotter.jpg" alt="Harry Potter">
-            <div class="texto-izq">
-            <h3 class="titulofundador">Harry James Potter</h3>
-            <p class="textofundador2">Harry James Potter (n. el 31 de julio de 1980), es un mago de sangre mestiza y el único hijo de James y Lily Potter. Es la única persona conocida que ha sobrevivido a la maldición de Avada Kedavra, haciéndolo en dos ocasiones. Ambas veces la maldición fue conjurada por Lord Voldemort. La primera, en un intento de matar a Harry de bebé, conlleva la primera derrota de Voldemort y al final de la Primera Guerra Mágica. La segunda, (en la que a diferencia de la primera Voldemort logra matarlo efectivamente pero luego el niño revive) destruye una parte más del alma de Voldemort y lleva a su destrucción definitiva y al final de la Segunda Guerra Mágica.</p>
-            </div>
-            </div>
+              <div class="p-2 bg-light border">
+                <img class="img-thumbnail rounded mx-auto d-block img1" src="../assets/img/harrypotter.jpg" alt="Harry Potter">
+                <h3 class="fw-normal text-center">Harry James Potter</h3>
+            <p class="lead text-muted">Harry James Potter (n. el 31 de julio de 1980), es un mago de sangre mestiza y el único hijo de James y Lily Potter. Es la única persona conocida que ha sobrevivido a la maldición de Avada Kedavra, haciéndolo en dos ocasiones. Ambas veces la maldición fue conjurada por Lord Voldemort. La primera, en un intento de matar a Harry de bebé, conlleva la primera derrota de Voldemort y al final de la Primera Guerra Mágica. La segunda, (en la que a diferencia de la primera Voldemort logra matarlo efectivamente pero luego el niño revive) destruye una parte más del alma de Voldemort y lleva a su destrucción definitiva y al final de la Segunda Guerra Mágica.</p>
+            <a href="https://harrypotter.fandom.com/es/wiki/Harry_Potter" button type="button" target="_blank" class="btn btn-outline-danger">Más información</button></a>
+              </div>
 
-            <a class="button" href="https://harrypotter.fandom.com/es/wiki/Harry_Potter">Mas Informacion</a>
-            
             <!--Hermione Granger-->
-            <div class="rcontainer">
-                <img class="img2" src="../assets/img/hermione.jpg" alt="Hermione Granger">
-            <div class="texto-der">
-            <h3 class="titulofundador">Hermione Jean Granger</h3>
-            <p class="textofundador1">Hermione Jean Granger (n. 19 de septiembre de 1979) es una bruja hija de muggles. El Sr. y Sra. Granger son dentistas en el mundo muggle. A los once años descubrió su don mágico y fue aceptada en el Colegio Hogwarts de Magia y Hechicería. Hermione empezó sus estudios mágicos el 1 de septiembre de 1991, poco antes de cumplir doce años y fue seleccionada para la Casa Gryffindor. Posee una mente académica brillante, y demostró ser una estudiante superdotada.</p>
-            </div>
-            </div>
+              <div class="p-2 bg-light border">  
+                <img class="img-thumbnail rounded mx-auto d-block img1" src="../assets/img/hermione.jpg" alt="Hermione Granger">
+                <h3 class="fw-normal text-center">Hermione Jean Granger</h3>
+            <p class="lead text-muted">Hermione Jean Granger (n. 19 de septiembre de 1979) es una bruja hija de muggles. El Sr. y Sra. Granger son dentistas en el mundo muggle. A los once años descubrió su don mágico y fue aceptada en el Colegio Hogwarts de Magia y Hechicería. Hermione empezó sus estudios mágicos el 1 de septiembre de 1991, poco antes de cumplir doce años y fue seleccionada para la Casa Gryffindor. Posee una mente académica brillante, y demostró ser una estudiante superdotada.</p>
+            <a href="https://harrypotter.fandom.com/es/wiki/Hermione_Granger" button type="button" target="_blank" class="btn btn-outline-danger">Más información</button></a></div>
 
-            <a class="button" href="https://harrypotter.fandom.com/es/wiki/Hermione_Granger">Mas Informacion</a>
-            
             <!--Ron Weasley-->
-            <div class="container">
-                <img class="img1" src="../assets/img/ron.jpg" alt="Ron Weasley">
-            <div class="texto-izq">
-            <h3 class="titulofundador">Ron Weasley</h3>
-            <p class="textofundador2">Ronald "Ron" Bilius Weasley (n. 1 de marzo de 1980) es un mago sangre pura, el sexto y más joven hijo de Arthur y Molly Weasley. También era el hermano menor de Bill, Charlie, Percy, Fred y George, y el hermano mayor de Ginny. Ron y sus hermanos y hermana vivían en la Madriguera, en las afueras de Ottery St. Catchpole.</p>
-            </div>
-            </div>
+              <div class="p-2 bg-light border">
+                <img class="img-thumbnail rounded mx-auto d-block img1" src="../assets/img/ron.jpg" alt="Ron Weasley">
+                <h3 class="fw-normal text-center">Ronald Bilius Weasley</h3>
+            <p class="lead text-muted">Ronald "Ron" Bilius Weasley (n. 1 de marzo de 1980) es un mago sangre pura, el sexto y más joven hijo de Arthur y Molly Weasley. También era el hermano menor de Bill, Charlie, Percy, Fred y George, y el hermano mayor de Ginny. Ron y sus hermanos y hermana vivían en la Madriguera, en las afueras de Ottery St. Catchpole.</p>
 
-            <a class="button" href="https://harrypotter.fandom.com/es/wiki/Ronald_Weasley">Mas Informacion</a>
+            <p class="lead text-muted">Ron comenzó a asistir al Colegio Hogwarts de Magia y Hechicería en 1991 y fue seleccionado para la Casa Gryffindor. Pronto se convirtió en el mejor amigo de su compañero Harry Potter y luego de Hermione Granger. Juntos, se enfrentaron a muchos desafíos durante su adolescencia, incluyendo mantener la Piedra Filosofal del Profesor Quirinus Quirrell, salvar a Ginny del basilisco de la Cámara de los Secretos, salvando al padrino de Harry Sirius Black de los Dementores de Azkaban, guiando a Harry a través del Torneo de los Tres Magos, formando el Ejército de Dumbledore y peleando en numerosas batallas del Segunda Guerra Mágica: incluyendo la Batalla del Departamento de Misterios (1996), Batalla de la Torre de Astronomía (1997), y Batalla de los Siete Potters (1997). Ron también se convirtió en prefecto y Guardián en el equipo de Quidditch de Gryffindor durante su quinto año en Hogwarts.</p>
+            <a href="https://harrypotter.fandom.com/es/wiki/Ronald_Weasley" button type="button" target="_blank" class="btn btn-outline-danger">Más información</button></a></div>
 
             <!--Albus Dumbledore-->
-            <div class="rcontainer">
-                <img class="img2" src="../assets/img/albus.jpg" alt="Albus Dumbledore">
-            <div class="texto-der">
-            <h3 class="titulofundador">Albus Dumbledore</h3>
-            <p class="textofundador1">El profesor Albus Percival Wulfric Brian Dumbledore, (Orden de Merlín - Primera Clase, Gran Hechicero, Jefe de Magos del Wizengamot, Jefe Supremo), (n. Verano de 1881 - fl. 30 de junio de 1997) fue profesor de Transformaciones y más tarde director del Colegio Hogwarts de Magia y Hechicería. También se desempeñó como Jefe Supremo de la Confederación Internacional de Magos - (? - 1995) y como Jefe de Magos del Wizengamot (? - 1997). Era un mago de sangre mestiza, hijo de Percival y Kendra Dumbledore, y hermano mayor de Aberforth y Ariana Dumbledore. Su padre murió en Azkaban cuando Albus era joven, mientras que su madre y su hermana murieron más tarde en diversos accidentes. Sus pérdidas primerizas en gran medida le afectaron, incluso en su muerte, pero a su vez lo hicieron una mejor persona. Albus Dumbledore era considerado como el mago más poderoso de su época. Él era famoso por derrotar a Gellert Grindelwald, descubrir doce usos de la sangre de dragón, y su trabajo en alquimia con Nicolas Flamel.</p>
-            </div>
-            </div>
+              <div class="p-2 bg-light border">                
+                <img class="img-thumbnail rounded mx-auto d-block img1" src="../assets/img/albus.jpg" alt="Albus Dumbledore">
+                <h3 class="fw-normal text-center">Albus Percival Wulfric Brian Dumbledore</h3>
+            <p class="lead text-muted">El profesor Albus Percival Wulfric Brian Dumbledore, (Orden de Merlín - Primera Clase, Gran Hechicero, Jefe de Magos del Wizengamot, Jefe Supremo), (n. Verano de 1881 - fl. 30 de junio de 1997) fue profesor de Transformaciones y más tarde director del Colegio Hogwarts de Magia y Hechicería. También se desempeñó como Jefe Supremo de la Confederación Internacional de Magos - (? - 1995) y como Jefe de Magos del Wizengamot (? - 1997). Era un mago de sangre mestiza, hijo de Percival y Kendra Dumbledore, y hermano mayor de Aberforth y Ariana Dumbledore.</p>
 
-            <a class="button" href="https://harrypotter.fandom.com/es/wiki/Albus_Dumbledore">Mas Informacion</a>
-
-        </section>
-
+            <p class="lead text-muted"> Su padre murió en Azkaban cuando Albus era joven, mientras que su madre y su hermana murieron más tarde en diversos accidentes. Sus pérdidas primerizas en gran medida le afectaron, incluso en su muerte, pero a su vez lo hicieron una mejor persona. Albus Dumbledore era considerado como el mago más poderoso de su época. Él era famoso por derrotar a Gellert Grindelwald, descubrir doce usos de la sangre de dragón, y su trabajo en alquimia con Nicolas Flamel.</p>
+            <a href="https://harrypotter.fandom.com/es/wiki/Albus_Dumbledore" button type="button" target="_blank" class="btn btn-outline-danger">Más información</button></a></div>
+          </div>
 
         <footer>
             <!--Enlace a Wizarding World-->

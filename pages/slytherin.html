@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
     <link rel="stylesheet" href="../style.css">
+
+     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!--WOW Animate CSS-->
     <link rel="stylesheet" href="../assets/animate.css">
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-    </style>
+
+    <!--Favicon y Title-->
+    <link rel="icon" href="../assets/img/ico.png" type="image/x-icon">
     <title>Slytherin</title>
 </head>
 <body>
@@ -46,9 +52,9 @@
 
     <!--Emblema Casa-->
     
-    <section class="py-5 text-center container">
+    <section class="py-5 text-center container-fluid">
       <div class="row py-lg-5 slytherin">
-        <div class="col-lg-8 mx-auto">
+        <div class="col-lg-8 mx-auto animate__fadeIn">
           <img class="housecrest" src="../assets/img/slytherin.png" alt="Emblema de la Casa Slytherin">
           <h1 class="fw-light">Slytherin</h1>
           <p class="lead text-muted">Los Slytherin utilizan cualquier medio para lograr sus fines, poseen determinación y ambición.</p>
@@ -58,51 +64,46 @@
 
     <!--Fin Emblema Casa-->
 
-        <section>
-            <h1>Estudiantes mas representativos</h1>
+    <section>
+      <h1 class="fw-normal text-center">Mejores Miembros</h1>
+      <p>
+        <br>
+      </p>
+    <div class="d-grid gap-5">
 
-            <!--Albus Potter-->
-            <div class="container">
-            <img class="img1" src="../assets/img/severus.jpg" alt="Albus Potter">
-            <div class="texto-izq">
-            <h3 class="titulofundador">Albus Severus Potter</h3>
-            <p class="textofundador2">Albus Severus "Al" Potter (antes del 2006) fue un mago mestizo, el segundo hijo de Harry y Ginevra Potter (de soltera Weasley). Nació dos años después que su hermano mayor James Sirius y dos años antes que su hermana menor Lily Luna.
+      <!--Severus Snape-->
+        <div class="p-2 bg-light border">
+          <img class="img-thumbnail rounded mx-auto d-block img1" src="../assets/img/snape.jpg" alt="Severus Snape">
+          <h3 class="fw-normal text-center">Severus Snape</h3>
+      <p class="lead text-muted">El Profesor Severus Snape (n. 9 de enero de 1960 - m. 2 de mayo de 1998) fue Maestro de Pociones (1981-1996), profesor de Defensa Contra las Artes Oscuras (1996-1997) y director (1997-1998) de Hogwarts, a la que asistió como estudiante desde 1971 hasta 1978. Snape desempeñó un papel esencial en las dos guerras contra Lord Voldemort.</p>
+      <a href="https://harrypotter.fandom.com/es/wiki/Severus_Snape" button type="button" target="_blank" class="btn btn-outline-success">Más información</button></a>
+        </div>
 
-            Albus fue nombrado en memoria de Albus Dumbledore y Severus Snape, dos ex directores de Colegio Hogwarts de Magia y Hechicería y dos grandes magos que su padre conoció. Neville Longbottom es su padrino.
-            </p>
-            </div>
-            </div>
-            <a href="https://harrypotter.fandom.com/es/wiki/Albus_Potter">Mas Informacion</a>
+      <!--Tom Marvolo Ryddle-->
+        <div class="p-2 bg-light border">  
+          <img class="img-thumbnail rounded mx-auto d-block img1" src="../assets/img/tom.jpg" alt="Tom Marvolo Ryddle">
+          <h3 class="fw-normal text-center">Tom Marvolo Ryddle</h3>
+      <p class="lead text-muted">Tom Marvolo Ryddle (31 de diciembre de 1926 - 2 de mayo de 1998), posteriormente conocido como Lord Voldemort, fue el mago tenebroso más poderoso de todos los tiempos. Siendo hijo del adinerado muggle Tom Ryddle Sr. y la bruja Merope Gaunt, nació con sangre mestiza, su madre murió poco después de dar a luz. Tom Ryddle Sr. dejó a su esposa una vez que ella quedó encinta, habiéndose librado del trance de una poción de amor, la cual había sido la única causa de su relación.</p>
 
-            <!--Severus Snape-->
-            <div class="rcontainer">
-            <img class="img2" src="../assets/img/snape.jpg" alt="Severus Snape">
-            <div class="texto-der">
-            <h3 class="titulofundador">Severus Snape</h3>
-            <p class="textofundador1">El Profesor Severus Snape (n. 9 de enero de 1960 - m. 2 de mayo de 1998) fue Maestro de Pociones (1981-1996), profesor de Defensa Contra las Artes Oscuras (1996-1997) y director (1997-1998) de Hogwarts, a la que asistió como estudiante desde 1971 hasta 1978. Snape desempeñó un papel esencial en las dos guerras contra Lord Voldemort.</p>
-            </div>
-            </div>
-            <a href="https://harrypotter.fandom.com/es/wiki/Severus_Snape">Mas Informacion</a>
+      <p class="lead text-muted">Su hijo, Tom Ryddle, nació y fue criado en un orfanato muggle, aunque no tardó en ingresar al Colegio Hogwarts de Magia y Hechicería e incorporarse a la casa Slytherin en 1938. Tom Ryddle fue durante su vida temprana considerado el alumno más talentoso que jamás hubiera asistido a Hogwarts. Para el colegio en general, él parecía ser un joven de muchos modales y educación; sin embargo, Ryddle en realidad exhibía conductas de crueldad, sadismo, manipulación, sociopatía y megalomanía. Tras haber adquirido títulos de excelencia en cada prueba académica presentada, Ryddle se marchó de Hogwarts en 1945 y poco después intentó pedirle empleo al profesor Dippet, quien se lo negó. Después de eso trabajó en Borgin y Burkes y luego desapareció totalmente de la vista pública por un largo tiempo.</p>
+      <a href="https://harrypotter.fandom.com/es/wiki/Tom_Ryddle" button type="button" target="_blank" class="btn btn-outline-success">Más información</button></a></div>
 
-            <!--Tom Sorvolo Ryddle-->
-            <div class="container">
-            <img class="img1" src="../assets/img/tom.jpg" alt="Tom Sorvolo Ryddle">
-            <div class="texto-izq">
-            <h3 class="titulofundador">Tom Sorvolo Ryddle</h3>
-            <p class="textofundador2">Tom Sorvolo Ryddle (31 de diciembre de 1926[10] - 2 de mayo de 1998), posteriormente conocido como Lord Voldemort, fue el mago tenebroso más poderoso de todos los tiempos. Siendo hijo del adinerado muggle Tom Ryddle Sr. y la bruja Merope Gaunt, nació con sangre mestiza, su madre murió poco después de dar a luz. Tom Ryddle Sr. dejó a su esposa una vez que ella quedó encinta, habiéndose librado del trance de una poción de amor, la cual había sido la única causa de su relación. Su hijo, Tom Ryddle, nació y fue criado en un orfanato muggle, aunque no tardó en ingresar al Colegio Hogwarts de Magia y Hechicería e incorporarse a la casa Slytherin en 1938. Tom Ryddle fue durante su vida temprana considerado el alumno más talentoso que jamás hubiera asistido a Hogwarts. Para el colegio en general, él parecía ser un joven de muchos modales y educación; sin embargo, Ryddle en realidad exhibía conductas de crueldad, sadismo, manipulación, sociopatía y megalomanía. Tras haber adquirido títulos de excelencia en cada prueba académica presentada, Ryddle se marchó de Hogwarts en 1945 y poco después intentó pedirle empleo al profesor Dippet, quien se lo negó. Después de eso trabajó en Borgin y Burkes y luego desapareció totalmente de la vista pública por un largo tiempo.</p>
-            </div>
-            </div>
-            <a href="https://harrypotter.fandom.com/es/wiki/Tom_Ryddle">Mas Informacion</a>
+      <!--Draco Lucius Malfoy Black-->
+        <div class="p-2 bg-light border">
+          <img class="img-thumbnail rounded mx-auto d-block img1" src="../assets/img/draco.jpg" alt="Draco Lucius Malfoy Black">
+          <h3 class="fw-normal text-center">Draco Lucius Malfoy Black</h3>
+      <p class="lead text-muted">Draco Lucius Malfoy Black (n. 5 de junio de 1980) es un mago de sangre pura y el único hijo de Lucius y Narcissa Malfoy. Por ser el hijo de un mortífago, a Draco le enseñaron a creer firmemente en la importancia de la pureza de sangre. Asistió al Colegio Hogwarts de Magia y Hechicería desde 1991 hasta 1998 y fue seleccionado en la Casa Slytherin. Durante sus años en Hogwarts, se hizo amigo de Vincent Crabbe, Gregory Goyle, Pansy Parkinson y otros compañeros de Slytherin, mientras él rápidamente desarrolló una rivalidad con Harry Potter. Fue nombrado prefecto de su casa y miembro de la Brigada Inquisitorial durante su quinto año, al final del cual fue encarcelado su padre en Azkaban después de la batalla del Departamento de Misterios. </p>
 
-            <!--Draco Lucius Malfoy Black-->
-            <div class="rcontainer">
-            <img class="img2" src="../assets/img/draco.jpg" alt="Draco Lucius Malfoy Black">
-            <div class="texto-der">
-            <h3 class="titulofundador">Draco Lucius Malfoy Black</h3>
-            <p class="textofundador1">Draco Lucius Malfoy Black (n. 5 de junio de 1980) es un mago de sangre pura y el único hijo de Lucius y Narcissa Malfoy. Por ser el hijo de un mortífago, a Draco le enseñaron a creer firmemente en la importancia de la pureza de sangre. Asistió al Colegio Hogwarts de Magia y Hechicería desde 1991 hasta 1998 y fue seleccionado en la Casa Slytherin. Durante sus años en Hogwarts, se hizo amigo de Vincent Crabbe, Gregory Goyle, Pansy Parkinson y otros compañeros de Slytherin, mientras él rápidamente desarrolló una rivalidad con Harry Potter. Fue nombrado prefecto de su casa y miembro de la Brigada Inquisitorial durante su quinto año, al final del cual fue encarcelado su padre en Azkaban después de la batalla del Departamento de Misterios. Lord Voldemort se encargó de Draco, con lo que fue un fracaso para Lucius, y se convirtió en un mortífago a la edad de dieciséis años, pero se desilusionó rápidamente con el estilo de vida. Draco no pudo completar su tarea - asesinar a Albus Dumbledore, que fue tomada por Severus Snape - y sólo cumplió con sus deberes por temor y de mala gana. Él y su familia desertaron horas antes del fin de la Batalla de Hogwarts con el fin de evitar el encarcelamiento en Azkaban después de la derrota de Voldemort. Draco finalmente se casó con Astoria Greengrass,a pesar de las opiniones de su padre debido a que ella era una sangre mestiza y tuvo al menos un hijo, Scorpius Malfoy. A quién se aseguró de enseñarle que el estatus de sangre no importa.</p>
-            </div>
-            </div>
-            <a href="https://harrypotter.fandom.com/es/wiki/Draco_Malfoy">Mas Informacion</a>
+      <a href="https://harrypotter.fandom.com/es/wiki/Draco_Malfoy" button type="button" target="_blank" class="btn btn-outline-success">Más información</button></a></div>
+
+      <!--Horace Eugene Flaccus Slughorn-->
+        <div class="p-2 bg-light border">                
+          <img class="img-thumbnail rounded mx-auto d-block img1" src="../assets/img/horace.jpg" alt="Horace Eugene Flaccus Slughorn">
+          <h3 class="fw-normal text-center">Horace Eugene Flaccus Slughorn</h3>
+      <p class="lead text-muted">El profesor Horace Eugene Flaccus Slughorn es un mago, Maestro de Pociones y Jefe de la Casa Slytherin en el Colegio Hogwarts de Magia y Hechiceria. Fue profesor de pociones durante más de cincuenta años y jefe de Slytherin antes de jubilarse en 1981. Fue amigo y colega de Albus Dumbledore, quien lo persuadió a regresar para ocupar el cargo en 1996.</p>
+
+      <a href="https://harrypotter.fandom.com/es/wiki/Horace_Slughorn" button type="button" target="_blank" class="btn btn-outline-success">Más información</button></a></div>
+    </div>
 
         </section>
         <footer>
