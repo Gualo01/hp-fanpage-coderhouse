@@ -1,9 +1,14 @@
 .container {
-  text-align: center;
+  text-align: left;
 }
 
 .rcontainer {
-  text-align: center;
+  text-align: right;
+}
+
+#logohome {
+  width: 64px;
+  height: 64px;
 }
 
 .img1 {
@@ -14,6 +19,22 @@
 .img2 {
   width: 366px;
   height: auto;
+}
+
+/* Ajustes en los emblemas */
+.housecrest {
+  width: 40%;
+  height: auto;
+}
+
+.centrarCaja {
+  display: flex;
+  align-items: center;
+}
+
+/* Fin Ajustes en los emblemas */
+.animate__fadeIn {
+  animation-duration: 2s;
 }
 
 .texto-izq h3 {
@@ -34,6 +55,10 @@
   color: rgb(187, 170, 170);
   text-decoration: underline;
   text-align: justify;
+}
+
+.p-2 {
+  margin: 1rem 10em 1rem 10em;
 }
 
 /*# sourceMappingURL=style.css.map */

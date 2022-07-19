@@ -1,15 +1,18 @@
 //Imagenes
 
 .container{
-    text-align: center;
+    text-align: left;
 }
 
 .rcontainer{
-    text-align: center;
+    text-align: right;
 
 }
 
-
+#logohome{
+    width: 64px;
+    height: 64px;
+}
 .img1{
     width: 366px;
     height: auto;
@@ -19,5 +22,21 @@
 .img2{
     width: 366px;
     height: auto;
+}
+
+/* Ajustes en los emblemas */
+.housecrest{
+    width: 40%;
+    height: auto;
+}
+
+.centrarCaja {
+    display: flex;
+    align-items: center;
+}
+/* Fin Ajustes en los emblemas */
+
+.animate__fadeIn{
+    animation-duration: 2s;
 }
 
