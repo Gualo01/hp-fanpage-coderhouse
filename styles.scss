@@ -1,0 +1,39 @@
+//Use
+@use 'imgs';
+
+//Variables
+$main-color: rgb(187, 170, 170);
+$color-sec: rgb(76, 76, 216);
+$pic-size: 10% auto;
+
+//Anidacion
+
+.texto-izq {
+    h3 {
+        color: $color-sec;
+        text-align: center;  
+    }
+
+    p{
+        color: $main-color;
+        text-decoration: underline;
+        text-align: justify;
+    }
+}
+
+.texto-der {
+    h3 {
+        color: $color-sec;
+        text-align: center;   
+    }
+
+    p{
+        color: $main-color;
+        text-decoration: underline;
+        text-align: justify;
+    }
+}
+
+.p-2{
+    margin: 1rem 10em 1rem 10em;
+}
