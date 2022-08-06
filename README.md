@@ -2,7 +2,7 @@
 <h1 align="center">Hola!, soy Eduardo Gomez</h1>
 <h3 align="center">Estudiante de Desarrollo Full Stack, 29.</h3>
 
-- 🔭 Me encuentro trabajando en un proyecto de FanPage de Harry Potter, donde se ilustran los fundadores de la Escuela de Magia y Hechiceria Hogwarts, asi como los mejores estudiantes del ultimo siglo. [hogwartsfanpage.netlify.app](hogwartsfanpage.netlify.app)
+- 🔭 Me encuentro trabajando en un proyecto de FanPage de Harry Potter, donde se ilustran los fundadores de la Escuela de Magia y Hechiceria Hogwarts, asi como los mejores estudiantes del ultimo siglo. hogwartsfanpage.netlify.app
 
 - 🌱 Estoy Aprendiendo **HTML, CSS, Javascript.**
 
